@@ -6,3 +6,6 @@
 -- Set to "basedpyright" to use basedpyright instead of pyright.
 vim.g.lazyvim_python_lsp = "pyright"
 vim.g.lazyvim_python_ruff = "ruff_lsp"
+
+-- Add vertical line at 100 char width
+vim.opt.colorcolumn = "100"
